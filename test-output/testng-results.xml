@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Demo_Suite" duration-ms="13435" started-at="2020-10-12T10:15:52 IST" finished-at="2020-10-12T10:16:05 IST">
+    <groups>
+      <group name="Smoke">
+        <method signature="Class1.demo1()[pri:0, instance:Test1.Class1@49fc609f]" name="demo1" class="Test1.Class1"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test name="Test" duration-ms="13435" started-at="2020-10-12T10:15:52 IST" finished-at="2020-10-12T10:16:05 IST">
+      <class name="Test1.Class2">
+        <test-method status="PASS" signature="demo4(java.lang.String, java.lang.String)[pri:0, instance:Test1.Class2@cd2dae5]" name="demo4" duration-ms="1" started-at="2020-10-12T10:16:05 IST" data-provider="getdata" finished-at="2020-10-12T10:16:05 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1st]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1111]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo4 -->
+        <test-method status="PASS" signature="demo4(java.lang.String, java.lang.String)[pri:0, instance:Test1.Class2@cd2dae5]" name="demo4" duration-ms="1" started-at="2020-10-12T10:16:05 IST" data-provider="getdata" finished-at="2020-10-12T10:16:05 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2nd]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2222]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo4 -->
+        <test-method status="PASS" signature="demo4(java.lang.String, java.lang.String)[pri:0, instance:Test1.Class2@cd2dae5]" name="demo4" duration-ms="2" started-at="2020-10-12T10:16:05 IST" data-provider="getdata" finished-at="2020-10-12T10:16:05 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3rd]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3333]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo4 -->
+        <test-method status="PASS" signature="demo3()[pri:0, instance:Test1.Class2@cd2dae5]" name="demo3" duration-ms="2" started-at="2020-10-12T10:16:05 IST" depends-on-methods="Test1.Class2.demo4" finished-at="2020-10-12T10:16:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo3 -->
+      </class> <!-- Test1.Class2 -->
+      <class name="Test1.Class1">
+        <test-method status="PASS" signature="demo1()[pri:0, instance:Test1.Class1@49fc609f]" name="demo1" duration-ms="11" started-at="2020-10-12T10:15:52 IST" finished-at="2020-10-12T10:15:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo1 -->
+        <test-method status="PASS" signature="demo2(java.lang.String)[pri:0, instance:Test1.Class1@49fc609f]" name="demo2" duration-ms="13361" started-at="2020-10-12T10:15:52 IST" finished-at="2020-10-12T10:16:05 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.yahoo.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo2 -->
+      </class> <!-- Test1.Class1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Demo_Suite -->
+</testng-results>
